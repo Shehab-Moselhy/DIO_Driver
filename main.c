@@ -12,13 +12,13 @@
 #include "../include/HAL/LED/LED_Interface.h"
 #define F_CPU 8000000UL
 
-#define PRESSED 0
+
 
 int main(void)
 {
 	MDIO_voidInit();
 	while(1)
 	{
-		HSSD_voidDisplayAscending(PORTD);
+		
 	}
 }
